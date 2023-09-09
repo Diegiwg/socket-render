@@ -1,0 +1,9 @@
+<!Chat>
+
+<button>Teste</button>
+
+<script>
+    document.querySelector("button").onclick = () => {
+        EmitEvent("Event::RenderPage", { page: "Test" });
+    };
+</script>
